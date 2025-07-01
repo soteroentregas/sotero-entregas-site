@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sotero Entregas</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="logo.png" />
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="text-gray-800 font-sans">
+
+  <!-- TOPO FIXO -->
+  <header class="bg-orange-600 fixed w-full top-0 z-50 shadow">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <div class="flex items-center gap-2">
+        <img src="logo.png" alt="Logo Sotero" class="h-10" />
+        <span class="text-white font-bold text-lg">SOTERO ENTREGAS</span>
+      </div>
+      <nav class="hidden md:flex gap-6 text-white font-medium text-sm">
+        <a href="#home" class="hover:underline">Início</a>
+        <a href="#servicos" class="hover:underline">Serviços</a>
+        <a href="#contato" class="hover:underline">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- BANNER -->
+  <section id="home" class="bg-orange-100 pt-28 pb-20 px-6">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between">
+      <div class="md:w-1/2 mb-10 md:mb-0">
+        <h1 class="text-4xl font-bold text-orange-700 mb-4">Entrega no mesmo dia com segurança e agilidade</h1>
+        <p class="text-gray-700 mb-6">Motoboys treinados e atendimento direto no WhatsApp. Cuidamos das suas entregas como se fossem nossas.</p>
+        <a href="https://wa.me/5572981594182" target="_blank" class="bg-orange-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-orange-700 transition">
+          Chamar no WhatsApp
+        </a>
+      </div>
+      <img src="entregador.png" alt="Motoboy Sotero" class="w-full md:w-1/2 max-w-md">
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section id="servicos" class="bg-white py-20 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2 class="text-3xl font-bold text-orange-600 mb-10">O que fazemos</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="border rounded-lg p-6 hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Entrega Expressa</h3>
+          <p>Coleta e entrega no mesmo dia com rastreio e suporte direto.</p>
+        </div>
+        <div class="border rounded-lg p-6 hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Motoboy Dedicado</h3>
+          <p>Um profissional exclusivo para sua operação diária.</p>
+        </div>
+        <div class="border rounded-lg p-6 hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold mb-2">Serviços sob Demanda</h3>
+          <p>Entregas avulsas, programadas ou personalizadas conforme sua necessidade.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="bg-orange-50 py-16 px-6">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center">
+      <div>
+        <h4 class="text-2xl font-bold text-orange-600">+Rápido</h4>
+        <p class="text-sm mt-2">Retirada e entrega no mesmo dia em Salvador e região.</p>
+      </div>
+      <div>
+        <h4 class="text-2xl font-bold text-orange-600">+Confiável</h4>
+        <p class="text-sm mt-2">Motoboys uniformizados, com crachá e responsabilidade.</p>
+      </div>
+      <div>
+        <h4 class="text-2xl font-bold text-orange-600">+Atendimento</h4>
+        <p class="text-sm mt-2">Suporte via WhatsApp com rapidez e atenção.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="bg-orange-600 text-white py-20 px-6">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-4">Entre em contato agora</h2>
+      <p class="mb-6">Atendemos de segunda a sábado, das 8h às 18h.</p>
+      <a href="https://wa.me/5572981594182" target="_blank" class="bg-white text-orange-600 px-6 py-3 rounded-full font-semibold hover:bg-orange-100 transition">
+        Chamar no WhatsApp
+      </a>
+      <p class="mt-6 text-sm">Boa Vista de São Caetano - Salvador/BA • (72) 98159-4182</p>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="bg-orange-700 text-white py-6 text-center text-sm">
+    © 2025 Sotero Entregas • Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
